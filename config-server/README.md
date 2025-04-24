@@ -8,3 +8,4 @@
 - Config Server
 - bootstrap
 - actuator
+- implementation 'org.springframework.cloud:spring-cloud-starter-bus-amqp' 
