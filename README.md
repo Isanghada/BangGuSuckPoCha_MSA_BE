@@ -24,5 +24,3 @@
 - SpringBoot 3.4.4
 - MySQL
 - IntelliJ
-
-### Git
