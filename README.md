@@ -6,7 +6,7 @@
 ### ◼도메인 목록
 
 - [x] ~~예시~~ (2025.03.27)
-- [ ] Discovery Server, API Gateway : **Java, SpringBoot**
+- [ ] Service Discovery, API Gateway : **Java, SpringBoot**
 - [ ] user : **Java, SpringBoot**
 - [ ] friend : **Java, SpringBoot**
 - [ ] pocha : **Java, SpringBoot**
