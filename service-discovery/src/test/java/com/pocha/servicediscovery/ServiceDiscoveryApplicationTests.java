@@ -1,4 +1,4 @@
-package com.pocha.msa;
+package com.pocha.servicediscovery;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
