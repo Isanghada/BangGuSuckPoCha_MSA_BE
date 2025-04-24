@@ -1,5 +1,26 @@
+server:
+  port: 8800
+
 spring:
   application:
     name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Isanghada/BangGuSuckPoCha_MSA_BE.git
+          search-paths: msa-config-repo
+          # if private repository add command
+          # username: [your username]
+          # password: [your password]
+  #    rabbitmq:
+#      host: 127.0.0.1
+#      port: 5672
+#      username: guest
+#      password: guest
 
-
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: refresh,health,beans,httptrace,busrefresh
